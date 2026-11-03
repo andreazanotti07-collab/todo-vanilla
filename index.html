@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La mia To-Do List</title>
+  </head>
+  <body>
+    <main class="contenitore">
+      <h1>La mia To-Do List</h1>
+
+      <form id="form-task">
+        <input
+          id="campo-task"
+          type="text"
+          placeholder="Scrivi una nuova attività..."
+          autocomplete="off"
+        />
+        <button type="submit">Aggiungi</button>
+      </form>
+
+      <ul id="lista"></ul>
+      <p id="info">Totali: 0 · Completati: 0</p>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
